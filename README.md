@@ -1,47 +1,41 @@
-# curriculum-databases-projects-template
+# VET CLINIC DATABASE
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+> This is Postgres database of a vet clinic with an animals table with several properties of the animals and several queries to query the table.
 
+
+## Built With
+
+- Postgres
+- SQL
 
 ## Getting Started
 
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+To get a local copy these simple example steps.
 
 
-## Authors
+### Install
+1. Go to terminal and ```cd``` into the directory of your preference.
+2. Run `git clone git@github.com:alphayowakarindi/vet-clinic-database.git` to clone the project.
 
-👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## Author
 
-👤 **Author2**
+👤 **Alphayo Wakarindi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/alphayowakarindi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alphayo-wakarindi-15a825236/)
+
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions and feature requests are welcome!
+Feel free to check the [https://github.com/alphayowakarindi/vet-clinic-database/issues).
 
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Special thanks to [Microverse](https://github.com/microverseinc) for creating the task to help understand how to work with SQL and Postgres.
+
 
 ## 📝 License
 
