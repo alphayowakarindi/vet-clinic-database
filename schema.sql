@@ -42,10 +42,17 @@ ALTER TABLE animals ADD species_id INT references species(id);
 ALTER TABLE animals ADD owner_id INT references owners(id);
 
 
--- Species table
+-- Vets table
 CREATE TABLE vets(
     id SERIAL PRIMARY KEY, 
     name VARCHAR (255),
     age INT,
     date_of_graduation DATE
+);
+
+-- Specializations table
+CREATE TABLE specializations(
+    id SERIAL PRIMARY KEY, 
+    species_id INT references species(id)
+    vet_id INT references vets(id)
 );
