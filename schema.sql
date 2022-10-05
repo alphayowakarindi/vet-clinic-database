@@ -22,3 +22,16 @@ CREATE TABLE animals (
     weight_kg  DECIMAL
     species varchar(255)
 );
+
+-- Owners table
+CREATE TABLE owners(
+    id SERIAL PRIMARY KEY, 
+    full_name VARCHAR (255), 
+    age INT
+);
+
+-- Species table
+CREATE TABLE species(
+    id SERIAL PRIMARY KEY, 
+    name VARCHAR (255)
+);
