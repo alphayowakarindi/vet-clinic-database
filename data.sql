@@ -49,7 +49,14 @@ INSERT INTO vets(name, age, date_of_graduation) VALUES ('Maisy Smith', 26, '2019
 INSERT INTO vets(name, age, date_of_graduation) VALUES ('Stephanie Mendez', 64, '1981-05-04');
 INSERT INTO vets(name, age, date_of_graduation) VALUES ('Jack Harkness', 38, '2008-06-08');
 
-INSERT INTO owners(full_name, age) VALUES ('Jodie Whittaker', 38);
+-- Insert into the specializations table
+INSERT INTO specializations(species_id, vet_id) VALUES (1, 1);
+INSERT INTO specializations(species_id, vet_id) VALUES (3, 1);
+INSERT INTO specializations(species_id, vet_id) VALUES (3, 2);
+INSERT INTO specializations(species_id, vet_id) VALUES (4, 2);
+
+
+
 
 
 
