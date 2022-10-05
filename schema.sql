@@ -53,6 +53,14 @@ CREATE TABLE vets(
 -- Specializations table
 CREATE TABLE specializations(
     id SERIAL PRIMARY KEY, 
-    species_id INT references species(id)
+    species_id INT references species(id),
     vet_id INT references vets(id)
+);
+
+-- Visits table
+CREATE TABLE visits(
+    id SERIAL PRIMARY KEY, 
+    animal_id INT references animals(id),
+    vet_id INT references vets(id),
+    date_of_visit DATE
 );
