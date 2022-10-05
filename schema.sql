@@ -40,3 +40,12 @@ CREATE TABLE species(
 ALTER TABLE animals DROP COLUMN species;
 ALTER TABLE animals ADD species_id INT references species(id);
 ALTER TABLE animals ADD owner_id INT references owners(id);
+
+
+-- Species table
+CREATE TABLE vets(
+    id SERIAL PRIMARY KEY, 
+    name VARCHAR (255),
+    age INT,
+    date_of_graduation DATE
+);
