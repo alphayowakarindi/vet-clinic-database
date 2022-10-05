@@ -32,4 +32,16 @@ INSERT INTO owners(full_name, age) VALUES ('Jodie Whittaker', 38);
 INSERT INTO species(name) VALUES ('Pokemon');
 INSERT INTO species(name) VALUES ('Digimon');
 
+-- Modify your inserted animals to include owner information (owner_id)
+UPDATE animals SET owner_id = 1 WHERE name = 'Agumon';
+UPDATE animals SET owner_id = 2 WHERE name IN  ('Gabumon', 'Pikachu');
+UPDATE animals SET owner_id = 3 WHERE name IN  ('Devimon.', 'Plantmon');
+UPDATE animals SET owner_id = 4 WHERE name IN  ('Charmander', 'Skuirtle', 'Blossom');
+UPDATE animals SET owner_id = 5 WHERE name IN  ('Angemon', 'Boarmon');
+
+
+
+
+
+
 
