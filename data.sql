@@ -43,6 +43,13 @@ UPDATE animals SET owner_id = 5 WHERE name IN  ('Angemon', 'Boarmon');
 UPDATE animals SET species_id = 2 WHERE name LIKE '%mon';
 UPDATE animals SET species_id = 1 WHERE species_id IS NULL;
 
+-- Insert into the vets table
+INSERT INTO vets(name, age, date_of_graduation) VALUES ('William Tatcher', 45, '2000-04-23');
+INSERT INTO vets(name, age, date_of_graduation) VALUES ('Maisy Smith', 26, '2019-01-17');
+INSERT INTO vets(name, age, date_of_graduation) VALUES ('Stephanie Mendez', 64, '1981-05-04');
+INSERT INTO vets(name, age, date_of_graduation) VALUES ('Jack Harkness', 38, '2008-06-08');
+
+INSERT INTO owners(full_name, age) VALUES ('Jodie Whittaker', 38);
 
 
 
