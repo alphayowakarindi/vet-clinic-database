@@ -19,7 +19,10 @@ INSERT INTO animals VALUES (9, 'Boarmon', '2005-06-07', 7, TRUE, 20.4);
 INSERT INTO animals VALUES (10, 'Blossom', '1998-10-13', 3, TRUE, 17);
 INSERT INTO animals VALUES (11, 'Ditto', '2022-05-14', 4, TRUE, 22);
 
-
+-- Modify animals table
+ALTER TABLE animals DROP COLUMN species;
+ALTER TABLE animals ADD species_id INT references species(id);
+ALTER TABLE animals ADD owner_id INT references owners(id);
 
 
 
