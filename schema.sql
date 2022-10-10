@@ -64,3 +64,7 @@ CREATE TABLE visits(
     vet_id INT references vets(id),
     date_of_visit DATE
 );
+
+-- Performance audit
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
