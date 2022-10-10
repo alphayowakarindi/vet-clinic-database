@@ -64,3 +64,12 @@ CREATE TABLE visits(
     vet_id INT references vets(id),
     date_of_visit DATE
 );
+
+-- Performance audit
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+-- Decreasing query speed
+CREATE INDEX visits_of_animal_idx ON visits (animal_id); 
+CREATE INDEX email_index ON owners(email); 
+CREATE INDEX vet_id_index ON visits(vet_id ASC);
